@@ -1,7 +1,7 @@
 ### Element 3 Data Preparation
 
 This directory contains the scripts needed to prepare the data to recreate Element 3.
-First you will need to download the following data from the RDE.
+First you will need to download the following data from the RDE and WxDE.
 
 1. `Minnesota DOT Mobile Observation data` : [Archive data](https://www.its-rde.net/data/showdf?dataSetNumber=10172)
   * All of the files between **2014-02-19 00-00-00 2014-02-19 08-27-25.zip** through **2014-02-22 00-00-00 2014-02-22 04-25-37.zip**

@@ -1,0 +1,9 @@
+#
+####### requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+pandas
+math
+multiprocessing
+numpy
+#
