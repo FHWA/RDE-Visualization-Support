@@ -1,0 +1,13 @@
+#
+####### requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+os
+csv
+sqlalchemy
+dataset
+parse
+sqlite3
+datetime
+relativedelta
+#
