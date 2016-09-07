@@ -27,13 +27,6 @@ First you will need to download the following data from the RDE and WxDE.
 
 Now that you have all the files downloaded and placed into the correct directories you can start running the scripts to prepare the data for Element 3.  
 
-First run `Mn_DOT_All_DataPrep`.  This will place a sqlite database into this directory.
+First run `Element 3 - Data Preparation`.  This will place a sqlite database into this directory.
 
-Second you must add indexes to the four tables which are used in the next script.
-
-* Weather: StationID, ObsTypeName, Timestamp
-* Update: VehicleName, Timestamp, GPS_Quality
-* Mdtx: VehicleName, Timestamp, GPS_Quality
-* Vaix: VehicleName, Timestamp, GPS_Quality 
-
-Finally run `DownSampleFile`.  This will create four cscs in the data folder.  These four files are used in the Element 3 visualization.
+Finally run `Element 3 - Down Sample`.  This will create four files in the data folder.  These four files are used in the Element 3 visualization.
