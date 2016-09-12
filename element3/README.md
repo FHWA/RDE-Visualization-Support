@@ -4,7 +4,7 @@ This directory contains the scripts needed to prepare the data to recreate Eleme
 First you will need to download the following data from the RDE and WxDE.
 
 1. `Minnesota DOT Mobile Observation data` : [Archive data](https://www.its-rde.net/data/showdf?dataSetNumber=10172)
-  * All of the files between **2014-02-19 00-00-00 2014-02-19 08-27-25.zip** through **2014-02-22 00-00-00 2014-02-22 04-25-37.zip**
+  * All of the files between **2014-02-19 00-00-00 2014-02-19 08-27-25.zip** through **2014-02-22 20-14-37 2014-02-22 23-59-59.zip**
   * There will be 37 files in total.  The RDE will prompt you to download a zip file containing all 37 files.
   * Once downloaded there will be 37 zips files and two documents.  Each zip file contains a single data file.  Unzip all 37 zip files and place the data files within them into the `RDE` folder inside this directory.  Do not place the zip files themself or the two extra text files.
 2. `WxDE Minnesota Weather Data` : [Start Here](https://wxde.fhwa.dot.gov/) Follow the steps
