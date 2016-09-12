@@ -22,7 +22,7 @@ First you will need to download the following data from the RDE and WxDE.
 		* 2/19 0018 - 2/20 0000
 		* 2/20 0000 - 2/20 0006
 		*  ......
-		* 2/21 0018 - 2/22 0000
+		* 2/22 0018 - 2/23 0000
 		* You will end with 16 files.
 
 Now that you have all the files downloaded and placed into the correct directories you can start running the scripts to prepare the data for Element 3.  
