@@ -1,7 +1,15 @@
 ### Element 3 Data Preparation
 
 This directory contains the scripts needed to prepare the data to recreate Element 3.
-First you will need to download the following data from the RDE and WxDE.
+
+####Environment Setup
+
+The scripts are contained in [Jupyter Notebooks](http://jupyter.org/index.html).  You'll first need to [install Jupyter](http://jupyter.readthedocs.io/en/latest/install.html) for **Python 3, NOT Python 2** using either Anaconda or pip.
+
+Once that's done, run `pip3 install -r requirements.txt` from this directory to install Python dependencies.
+
+####Obtaining Source Data
+First you will need to download the following data from the RDE and WxDE.  Both sites require you to make an account before downloading any data.
 
 1. `Minnesota DOT Mobile Observation data` : [Archive data](https://www.its-rde.net/data/showdf?dataSetNumber=10172)
   * All of the files between **2014-02-19 00-00-00 2014-02-19 08-27-25.zip** through **2014-02-22 20-14-37 2014-02-22 23-59-59.zip**
@@ -26,6 +34,10 @@ First you will need to download the following data from the RDE and WxDE.
 		* You will end with 16 files.
 
 Now that you have all the files downloaded and placed into the correct directories you can start running the scripts to prepare the data for Element 3.  
+
+####Running the Scripts
+
+Start a Jupyter Notebook server from this directory using the `jupyter notebook` command.  You should then be able to select each notebook and run it all the way through.
 
 First run `Element 3 - Data Preparation`.  This will place a sqlite database into this directory.
 
