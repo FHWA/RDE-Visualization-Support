@@ -1,9 +1,2 @@
-#
-####### requirements.txt #######
-#
-###### Requirements without Version Specifiers ######
-pandas
-math
-multiprocessing
-numpy
-#
+numpy==1.10.4
+pandas==0.18.0
