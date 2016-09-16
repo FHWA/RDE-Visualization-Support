@@ -4,9 +4,17 @@ This directory contains the scripts needed to prepare the data to recreate Eleme
 
 ####Environment Setup
 
+#####Jupyter Notebook
+
 The scripts are contained in [Jupyter Notebooks](http://jupyter.org/index.html).  You'll first need to [install Jupyter](http://jupyter.readthedocs.io/en/latest/install.html) for **Python 3, NOT Python 2** using either Anaconda or pip.
 
 Once that's done, run `pip3 install -r requirements.txt` from this directory to install Python dependencies.
+
+#####Node
+
+Another data generation script is written using [Node.js](https://nodejs.org).  To run it, you will first need to [install Node and npm](http://blog.npmjs.org/post/85484771375/how-to-install-npm).
+
+Once that's done, run `npm install` to install all dependencies.
 
 ####Obtaining Source Data
 First you will need to download the following data from the RDE and WxDE.  Both sites require you to make an account before downloading any data.
@@ -42,3 +50,9 @@ Start a Jupyter Notebook server from this directory using the `jupyter notebook`
 First run `Element 3 - Data Preparation`.  This will place a sqlite database into this directory.
 
 Finally run `Element 3 - Down Sample`.  This will create four files in the data folder.  These four files are used in the Element 3 visualization.
+
+#####Minnesota Vertices
+
+There is also a script called `vertex_generation.js` which was used to generate `large3_vertex_variable.js` for Element 3.  This script generates a large number of points inside the bounds of Minnesota so that we could create a smoother extrapolation area for the weather data.
+
+To run this script (assuming npm and all required dependencies are installed), simply run `npm run build`.  It will take a little while (~20 minutes).
