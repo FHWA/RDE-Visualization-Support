@@ -138,21 +138,10 @@ load_gps_zip() {
     rm -rf /tmp/gps
 }
 
-# Make sure the directory where the BSM .zip was unzipped is the first argument
-if [[ $# -ne 2 ]]; then
-    echo "Usage: ./create_bsm_data.sh <BSM_DIR> <GPS_DIR>"
-    echo "'BSM_DIR' should be the directory where you unzipped the main BSM file."
-    echo "'GPS_DIR' should be the directory where you unzipped the main GPS file."
-    exit 1
-fi
-
 # Set up the data directory
-bsm_dir=$1
-gps_dir=$2
-data_dir="../data"
-if [[ ! -d "$data_dir" ]]; then
-    mkdir "$data_dir"
-fi
+bsm_dir="./BSM"
+gps_dir="./GPS"
+data_dir="./data"
 vehicle_file="$data_dir/vehicle.csv"
 
 # Spatial/other boundaries for the data
