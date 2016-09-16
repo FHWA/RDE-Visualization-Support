@@ -48,7 +48,7 @@ data_dir="data"
 mkdir -p "$data_dir"
 
 #Set up the output data files
-links_csv="our_links.csv"
+links_csv="$data_dir/our_links.csv"
 simul_link_file="$data_dir/simul_link_highway.csv"
 link_spe_file="$data_dir/link_spe_highway.csv"
 
