@@ -222,7 +222,7 @@ loadWeather();
 generateExtraPoints();
 generateVertex();
 
-//Write our vertex data which will be given to the GPU to a file
+//Write our vertex data which will be given to the GPU
 fs.writeFile("data/large3_vertex_variable.js", 'var vertex = '+JSON.stringify(my_vertex_data), function(e) {
   if (e) {
     return console.log(e);
