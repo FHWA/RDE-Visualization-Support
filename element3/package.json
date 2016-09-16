@@ -1,7 +1,7 @@
 {
-  "name": "rde-visualization-support-element2",
+  "name": "rde-visualization-support-element3",
   "version": "1.0.0",
-  "description": "Support script for Element 2 of the RDE Visualization Website.",
+  "description": "Support script for Element 3 of the RDE Visualization Website.",
   "main": "vertex_generation.js",
   "scripts": {
     "build": "node vertex_generation.js"
