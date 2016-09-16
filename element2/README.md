@@ -23,4 +23,4 @@ Once you have downloaded you should have two zip files.  Unzip both the files.  
 
 #####Data
 
-Start a Jupyter Notebook server from this directory using the `jupyter notebook` command.  You should then be able to select the `Element 2 - DownSample` notebook and run it all the way through.  It will populate `/data` with several data files.  The most imporant of which will be `data/p1_latlon_min.csv`, `data/rse_latlon_min.csv`, and `data/heat.csv`.  These three files are used in the Element 2 visualization.
+Start a Jupyter Notebook server from this directory using the `jupyter notebook` command.  You should then be able to select the `Element 2 - DownSample` notebook and run it all the way through.  It will populate `data/` with several data files.  The most imporant of which will be `data/p1_latlon_min.csv`, `data/rse_latlon_min.csv`, and `data/heat.csv`.  These three files are used in the Element 2 visualization.
