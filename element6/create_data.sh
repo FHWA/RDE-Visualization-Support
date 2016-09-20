@@ -47,18 +47,18 @@ fi
 old_ifs="$IFS"
 IFS=','
 for i in \
-    "$out_dir/culled/bsm_p1.csv","$bsm_dir/april_BsmP1.csv","$bsm_dir/BsmP1.csv.zip","1","1566","4","291864241884364","4","291865130584320","RxDevice|FileId|TxDevice|GenTime|TxRandom|MsgCount|DSecond|Latitude|Longitude|Elevation|Speed|Heading|Ax|Ay|Az|Yawrate|PathCount|RadiusOfCurve|Confidence" \
-    "$out_dir/culled/BrakeByte1.csv","$bsm_dir/BrakeByte1Events.csv","$bsm_dir/BrakeByte1Events.csv.zip","1","11","4","292784986346466","5","292790448511562","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/culled/TripSummaryNew.csv","$bsm_dir/Trip_Summary_File_BsmP1_April.csv","$bsm_dir/BsmP1Summary.csv.zip","1","11","3","-1","6","-1","DeviceID|TripID|EpochStartTime|StartDate|StartTime|EpochEndTime|EndDate|EndTime|TotalTripDistance|DistanceOver25MPH|DistanceOver55MPH|TripDuration|AverageSpeed|MaximumSpeed" \
-    "$out_dir/culled/ExteriorLightsEvents.csv","$bsm_dir/ExteriorLightsEvents.csv","$bsm_dir/ExteriorLightsEvents.csv.zip","1","87","4","292763301284190","5","292806497633615","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/sampled/bsm_posaccurbyte1.csv","$bsm_dir/PosAccurByte1Events.csv","$bsm_dir/PosAccurByte1Events.csv.zip","1","15501","4","293466234364067","5","293552634364067","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/sampled/bsm_posaccurbyte2.csv","$bsm_dir/PosAccurByte2Events.csv","$bsm_dir/PosAccurByte2Events.csv.zip","1","15501","4","293466226664071","5","293552626664071","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/sampled/bsm_posaccurbyte3.csv","$bsm_dir/PosAccurByte3Events.csv","$bsm_dir/PosAccurByte3Events.csv.zip","1","15501","4","293466226664071","5","293552626664071","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/sampled/bsm_posaccurbyte4.csv","$bsm_dir/PosAccurByte4Events.csv","$bsm_dir/PosAccurByte4Events.csv.zip","1","15501","4","293466223064080","5","293552623064080","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/culled/bsm_steerangle.csv","$bsm_dir/SteerAngleEvents.csv","$bsm_dir/SteerAngleEvents.csv.zip","1","10","4","276176189642801","5","276177186343373","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/culled/ThrottlePositionEvents.csv","$bsm_dir/ThrottlePositionEvents.csv","$bsm_dir/ThrottlePositionEvents.csv.zip","1","82","4","292762913370720","5","292763056610625","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/culled/TransStateEvents.csv","$bsm_dir/TransStateEvents.csv","$bsm_dir/TransStateEvents.csv.zip","1","87","4","292763301284190","5","292803629978980","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
-    "$out_dir/culled/WiperStatus.csv","$bsm_dir/WiperStatusFrontEvents.csv","$bsm_dir/WiperStatusFrontEvents.csv.zip","1","62","4","292736266384845","5","292766657344748","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/bsm_p1.csv","$bsm_dir/april_BsmP1.csv","$bsm_dir/BsmP1.csv.zip","1","1566","4","291864241884364","4","291865130584320","RxDevice|FileId|TxDevice|GenTime|TxRandom|MsgCount|DSecond|Latitude|Longitude|Elevation|Speed|Heading|Ax|Ay|Az|Yawrate|PathCount|RadiusOfCurve|Confidence" \
+    "$out_dir/BrakeByte1.csv","$bsm_dir/BrakeByte1Events.csv","$bsm_dir/BrakeByte1Events.csv.zip","1","11","4","292784986346466","5","292790448511562","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/TripSummaryNew.csv","$bsm_dir/Trip_Summary_File_BsmP1_April.csv","$bsm_dir/BsmP1Summary.csv.zip","1","11","3","-1","6","-1","DeviceID|TripID|EpochStartTime|StartDate|StartTime|EpochEndTime|EndDate|EndTime|TotalTripDistance|DistanceOver25MPH|DistanceOver55MPH|TripDuration|AverageSpeed|MaximumSpeed" \
+    "$out_dir/ExteriorLightsEvents.csv","$bsm_dir/ExteriorLightsEvents.csv","$bsm_dir/ExteriorLightsEvents.csv.zip","1","87","4","292763301284190","5","292806497633615","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/bsm_posaccurbyte1.csv","$bsm_dir/PosAccurByte1Events.csv","$bsm_dir/PosAccurByte1Events.csv.zip","1","15501","4","293466234364067","5","293552634364067","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/bsm_posaccurbyte2.csv","$bsm_dir/PosAccurByte2Events.csv","$bsm_dir/PosAccurByte2Events.csv.zip","1","15501","4","293466226664071","5","293552626664071","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/bsm_posaccurbyte3.csv","$bsm_dir/PosAccurByte3Events.csv","$bsm_dir/PosAccurByte3Events.csv.zip","1","15501","4","293466226664071","5","293552626664071","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/bsm_posaccurbyte4.csv","$bsm_dir/PosAccurByte4Events.csv","$bsm_dir/PosAccurByte4Events.csv.zip","1","15501","4","293466223064080","5","293552623064080","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/bsm_steerangle.csv","$bsm_dir/SteerAngleEvents.csv","$bsm_dir/SteerAngleEvents.csv.zip","1","10","4","276176189642801","5","276177186343373","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/ThrottlePositionEvents.csv","$bsm_dir/ThrottlePositionEvents.csv","$bsm_dir/ThrottlePositionEvents.csv.zip","1","82","4","292762913370720","5","292763056610625","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/TransStateEvents.csv","$bsm_dir/TransStateEvents.csv","$bsm_dir/TransStateEvents.csv.zip","1","87","4","292763301284190","5","292803629978980","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
+    "$out_dir/WiperStatus.csv","$bsm_dir/WiperStatusFrontEvents.csv","$bsm_dir/WiperStatusFrontEvents.csv.zip","1","62","4","292736266384845","5","292766657344748","RxDevice|FileId|TxDevice|StartTime|Endtime|Value" \
     ; do set -- $i
 
     outfile="$1"
