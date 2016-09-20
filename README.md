@@ -4,7 +4,7 @@ Support scripts for the [RDE Visualization Website](https://github.com/FHWA/RDE-
 ### Element 1
 Subsets simulated link volume and speed for roads in the Pasadena, CA network.
 
-Requirements: bash shell.
+Requirements: bash shell, sed, awk.
 
 ### Element 2
 
@@ -34,4 +34,4 @@ Requirements: Python 3.
 
 Samples data files from the Safety Pilot Model Deployment in Ann Arbor, MI.
 
-Requirements: bash shell.
+Requirements: bash shell, awk, 7zip command line client (`7za`).
