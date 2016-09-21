@@ -28,19 +28,16 @@ sample_file() {
 }
 
 # Make sure the user passed the correct arguments
-if [[ $# -ne 1 ]]; then
-    echo "Usage: ./create_data.sh <BSM_DIR>"
-    echo "'BSM_DIR' should be the directory containing all the"
-    echo "  BSM zips."
+if [[ $# -ne 0 ]]; then
+    echo "Usage: ./create_data.sh"
+    echo "Simply use the command ./create_data.sh"
 fi
 
-bsm_dir="$1"
+bsm_dir="BSM_FILES"
 out_dir="data"
 
 if [[ ! -d "$out_dir" ]]; then
     mkdir -p "$out_dir"
-    mkdir -p "$out_dir/culled"
-    mkdir -p "$out_dir/sampled"
 fi
 
 

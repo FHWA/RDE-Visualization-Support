@@ -16,11 +16,11 @@ Head to [the RDE](https://its-rde.net/) and make an account.  Then navigate to [
  - TransStateEvents
  - WiperStatusFrontEvents
 
-Place the resulting zip files into this directory.
+Place the resulting zip files into the `BSM_FILES` directory.
 
 ## Running the Scripts
 
-The script to generate the data is a bash script, which should run without a problem on Linux;  Windows users will need to provide a POSIX-like environment by installing something like [Cygwin](https://www.cygwin.com/).  The script uses the command line interface for [7zip](http://7-zip.org), as we were unable to extract some of the zip files with the OS X version of `unzip`.
+The script to generate the data is a bash script, which should run without a problem on Linux and OSX;  Windows users will need to provide a POSIX-like environment by installing something like [Cygwin](https://www.cygwin.com/).  The script uses the command line interface for [7zip](http://7-zip.org), as we were unable to extract some of the zip files with the OS X version of `unzip`.
 
 Installing the `7za` command line client:
 
