@@ -36,9 +36,7 @@ fi
 bsm_dir="BSM_FILES"
 out_dir="data"
 
-if [[ ! -d "$out_dir" ]]; then
-    mkdir -p "$out_dir"
-fi
+mkdir -p "$out_dir"
 
 
 old_ifs="$IFS"
